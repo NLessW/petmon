@@ -5,6 +5,7 @@
 /public/storage
 /storage
 /bootstrap/cache
+!/bootstrap/cache/.gitkeep
 
 # Environment & tooling
 .env
