@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* spoqa-han-sans */
+/* @import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css"); */
+@font-face {
+    font-family: "Spoqa Han Sans";
+    font-weight: 700;
+    src: local("Spoqa Han Sans Bold"),
+        url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansBold.woff2")
+            format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansBold.woff")
+            format("woff"),
+        url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansBold.ttf")
+            format("truetype");
+}
+
+@font-face {
+    font-family: "Spoqa Han Sans";
+    font-weight: 400;
+    src: local("Spoqa Han Sans Regular"),
+        url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansRegular.woff2")
+            format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansRegular.woff")
+            format("woff"),
+        url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansRegular.ttf")
+            format("truetype");
+}
+
+@font-face {
+    font-family: "Spoqa Han Sans";
+    font-weight: 300;
+    src: local("Spoqa Han Sans Light"),
+        url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansLight.woff2")
+            format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansLight.woff")
+            format("woff"),
+        url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansLight.ttf")
+            format("truetype");
+}
+
+@font-face {
+    font-family: "Spoqa Han Sans";
+    font-weight: 100;
+    src: local("Spoqa Han Sans Thin"),
+        url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansThin.woff2")
+            format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansThin.woff")
+            format("woff"),
+        url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansThin.ttf")
+            format("truetype");
+}
+
+/* NanumSquareNeo */
+@font-face {
+    font-family: "NanumSquareNeoLight";
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.eot?#iefix)
+            format("embedded-opentype"),
+        url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.woff)
+            format("woff"),
+        url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.ttf)
+            format("truetype");
+}
+
+@font-face {
+    font-family: "NanumSquareNeo";
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot?#iefix)
+            format("embedded-opentype"),
+        url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.woff)
+            format("woff"),
+        url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.ttf)
+            format("truetype");
+}
+
+@font-face {
+    font-family: "NanumSquareNeoBold";
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot?#iefix)
+            format("embedded-opentype"),
+        url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.woff)
+            format("woff"),
+        url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.ttf)
+            format("truetype");
+}
+
+@font-face {
+    font-family: "NanumSquareNeoExtraBold";
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.eot?#iefix)
+            format("embedded-opentype"),
+        url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.woff)
+            format("woff"),
+        url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.ttf)
+            format("truetype");
+}
+
+@font-face {
+    font-family: "NanumSquareNeoHeavy";
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.eot?#iefix)
+            format("embedded-opentype"),
+        url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.woff)
+            format("woff"),
+        url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-eHv.ttf)
+            format("truetype");
+}
+
+@font-face {
+    font-family: "NanumSquareNeoVariable";
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.eot?#iefix)
+            format("embedded-opentype"),
+        url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.woff)
+            format("woff"),
+        url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeo-Variable.ttf)
+            format("truetype");
+}
+
+/* Pretendard */
+/* https://uiweb.tistory.com/58 */
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 900;
+    src: url(/fonts/pretendard/woff/Pretendard-Black.woff) format("woff");
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 800;
+    src: url(/fonts/pretendard/woff/Pretendard-ExtraBold.woff) format("woff");
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 700;
+    src: url(/fonts/pretendard/woff/Pretendard-Bold.woff) format("woff");
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 600;
+    src: url(/fonts/pretendard/woff/Pretendard-SemiBold.woff) format("woff");
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 500;
+    src: url(/fonts/pretendard/woff/Pretendard-Medium.woff) format("woff");
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 400;
+    src: url(/fonts/pretendard/woff/Pretendard-Regular.woff) format("woff");
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 300;
+    src: url(/fonts/pretendard/woff/Pretendard-Light.woff) format("woff");
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 200;
+    src: url(/fonts/pretendard/woff/Pretendard-ExtraLight.woff) format("woff");
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 100;
+    src: url(/fonts/pretendard/woff/Pretendard-Thin.woff) format("woff");
+}
+
+.link-selected {
+    @apply block py-2 pl-3 pr-4 text-white bg-primary rounded lg:bg-transparent lg:text-primary lg:p-0 dark:text-white;
+}
+
+.link-default {
+    @apply block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-primary lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700;
+}
+
+/* 이미지 캡션 감추기*/
+figcaption {
+    display: none;
+}
+
+figure img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
